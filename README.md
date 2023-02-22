@@ -14,7 +14,7 @@ This path Finding only uses BFS for searching and made from scratch , u can cont
 
 
 Click on Download button -
-[Download Path Visualizer](https://www.dropbox.com/s/ex7qg6z69sp9io7/PathFinding.jar?dl=0)
+[Download Path Visualizer](https://www.dropbox.com/s/a9dcwd2v8t9b0oh/PathFinding.jar?dl=0)
 
 <img src="Screenshot_6.png" width="300">
 
