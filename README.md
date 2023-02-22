@@ -43,6 +43,7 @@ Demo
 | Ending node - Cyan |  #00FFFF|
 | Visited node - Green | #008000 |
 | Visiting node - Red |  #FF0000 |
+| Shortest Path - Yellow |  #FFFF00 |
 | Not allowed to visit - Black |  #000000 |
 
 
@@ -55,6 +56,8 @@ Demo
 - Wall Button - u can block the path by creating walls 
 - Delay Slider - Change the value of delay
 - Grid Slider - Change the number of grid 
+- About Button - some info
+
 ## Optimizations
 
 Code is not Optimized XD , as i said i made this from sratch and some basic things like Array , objects and some data structures like Stack and Queue
