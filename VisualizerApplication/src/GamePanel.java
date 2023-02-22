@@ -298,26 +298,26 @@ class GamePanel extends JPanel implements ActionListener ,ChangeListener {
 			bfsClass.reDeclaring(shortestNode, wall);
 			try {
 				if(startCount == 1 && endCount == 1) {
-						System.out.println("First");
+				
 					grid[startX][startY] = 8;
 					grid[endX][endY] = 9;	
 				}
 				else if(startCount == 1 && endCount !=1) {
-					System.out.println("2nd");
+			
 					startX = startY = endX = endY = -1;
 					grid[startX][startY] = 8;
 					grid[endX][endY] = 9;	
 					startCount = endCount = 0;
 				}
 				else if( endCount == 1 && startCount != 1 ) {
-					System.out.println("3ed");
+		
 					startX = startY = endX = endY = -1;
 					grid[startX][startY] = 8;
 					grid[endX][endY] = 9;
 					startCount = endCount = 0;
 				}
 				else {
-					System.out.println("4th");
+	
 				}
 				bfsClass.storeValue(endX,endY);
 				storeCurrentEndingNodeIndex(endX,endY);
@@ -386,7 +386,11 @@ class GamePanel extends JPanel implements ActionListener ,ChangeListener {
 			bfsClass.reDeclaring(shortestNode, wall);
 		}
 		else{
-			
+			startX = startY = endX = endY = -1;
+			forClear();			
+			shortestNode = new LinkedList<>();
+			wall = new int[biggestGameUnit][biggestGameUnit];
+			bfsClass.reDeclaring(shortestNode, wall);
 			gameUnit = size/ ( c.unitSize( ((JSlider)e.getSource()).getValue()) ) + 1;
 			bfsClass.gameUnit = gameUnit;
 			unit = c.unitSize( ((JSlider)e.getSource()).getValue() );
