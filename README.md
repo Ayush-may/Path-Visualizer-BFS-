@@ -6,6 +6,11 @@ This is a Path Finding Visualizer which uses BFS(Breath First Search) algorithm 
 This path Finding only uses BFS for searching and made from scratch , u can contact me if u find any issues
 
 
+# COMPILE AND RUN THE MAIN FILE or SIMPLY COPY ALL FILE WITH THE SAME NAME AND RUN MAIN FILE 
+
+
+
+
 
 
 Click on Download button -
